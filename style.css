@@ -12,9 +12,73 @@ html, body {
     width: 100%;
     height: 70px;
     border-bottom: 2px solid rgba(231, 229, 229, 0.678);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .nav img{
-    height: 20px;
-    
+    height: 17px;
+    margin-left: 400px;
+      
+}
+.nav span{
+    margin-right: 400px;
+    color: #666666;
+    font-weight: 530;
+    font-size: 1rem;
+
+}
+.nav a{
+    margin-right: 40px;
+}
+.nav i {
+    font-weight: 500;
+    color: black;
+    font-size: 20px;
+}
+.hero-section{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+.hero-section img{
+    height: 430px;
+    width: 1000px;
+    margin-bottom: 180px; 
+} 
+.hero-content{
+    position: absolute;
+    width: 70%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding-bottom: 110px;
+    padding-top: 120px;
+
+}
+.hero-section h1{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.74);
+    font-size: 50px;
+    line-height: 48px;
+    font-weight: 549;
+}
+.hero-section p{
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.733);
+    padding-top: 27px;
+}
+.hero-section button{
+    background-color: #387ed1;
+    font-size: 20px;
+    color: white;
+    height: 48px;
+    width: 180px;
+    border: none;
+    margin-left: 255px;
+    margin-top: 55px;
+    border-radius: 4px;
+
 }
